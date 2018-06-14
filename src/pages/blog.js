@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import moment from 'moment';
 
 const Blog = ({data}) => {
-  console.log('BLOG', data);
   return(
     <div css={{
       marginTop: '20vh',
