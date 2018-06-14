@@ -6,7 +6,6 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 const Layout = ({ children, data }) => {
-  console.log("DATA", data);
   return(
     <div>
       <Helmet

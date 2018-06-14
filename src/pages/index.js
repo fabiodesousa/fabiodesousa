@@ -4,7 +4,6 @@ import Tile from '../components/tile';
 import Banner from '../components/banner';
 
 const IndexPage = ({data}) => {
-  console.log('PROJECTS', data)
   return(
     <div css={{width:'100%'}}>
       <Banner title="Fabio De Sousa" subtitle="Always getting better" hero={data.contentfulAsset.sizes.src} />
