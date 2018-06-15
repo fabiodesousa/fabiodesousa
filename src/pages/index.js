@@ -10,22 +10,35 @@ const IndexPage = ({data}) => {
       <div css={{
         margin: 'auto',
         maxWidth: 960,
-        display:'flex',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
       }}>
-        {data.allContentfulProject.edges.map(project => (
-            <Tile
-              title={project.node.title}
-              img={project.node.thumbnail.resolutions.src}
-              img_alt={project.node.thumbnail.title}
-              subtitle={project.node.subtitle}
-              link={`/project/${project.node.slug}/`}
-              link_text="Read more."
-            />
-          )
-        )}
+        <div css={{margin:'auto', paddingLeft:'2rem'}}>
+          <h4>I'm a generalist, software developer, and user experience designer based in Tampa, Florida.</h4>
+        </div>
+        <div css={{
+          display:'flex',
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          justifyContent: 'space-around',
+          paddingBottom: '4rem',
+        }}>
+          <div css={{
+            paddingLeft:'2rem',
+            width: '100%',
+          }}>
+            <h1>Projects</h1>
+          </div>
+          {data.allContentfulProject.edges.map(project => (
+              <Tile
+                title={project.node.title}
+                img={project.node.thumbnail.resolutions.src}
+                img_alt={project.node.thumbnail.title}
+                subtitle={project.node.subtitle}
+                link={`/project/${project.node.slug}/`}
+                link_text="Read more."
+              />
+            )
+          )}
+        </div>
       </div>
     </div>
   );
