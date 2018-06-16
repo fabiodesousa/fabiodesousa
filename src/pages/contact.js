@@ -10,7 +10,7 @@ const Contact = () => (
     }}
   >
     <h1>Get in touch!</h1>
-    <p>A new digital agency serving the Tampa Bay area and beyond.</p>
+    <p>mail (at) fabiodesousa.com</p>
   </div>
 )
 
