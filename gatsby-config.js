@@ -19,15 +19,15 @@ module.exports = {
         accessToken: `a90f8342ac1af2abc42675b977c703a1b71141d2380ab08c2b32f9d4d76f58e4`,
       },
     },
-    /*{
+    {
       resolve: 'gatsby-plugin-favicon',
       options: {
         logo: "./src/favicon.png",
         injectHTML: true,
         icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
+          android: false,
+          appleIcon: false,
+          appleStartup: false,
           coast: false,
           favicons: true,
           firefox: true,
@@ -36,6 +36,6 @@ module.exports = {
           windows: false
         }
       }
-    }*/
+    }
   ],
 }
