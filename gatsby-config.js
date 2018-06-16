@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: 'Fabio De Sousa',
@@ -15,8 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `tdhz3bkyljz2`,
-        accessToken: `a90f8342ac1af2abc42675b977c703a1b71141d2380ab08c2b32f9d4d76f58e4`,
+        spaceId: process.env.CONTENTFUL_SPACE_ID || '',
+        accessToken: process.env.CONTENTFUL_TOKEN || '',
       },
     },
     {
