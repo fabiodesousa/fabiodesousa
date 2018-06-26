@@ -19,7 +19,7 @@ const Blog = ({data}) => {
               <h2 css={{marginBottom:'0', color:'inherit'}}>{post.title}</h2>
             </Link>
             <div css={{marginBottom: '0.5rem', color: 'lightgrey'}}>{moment(post.createdAt).fromNow()}</div>
-            <div dangerouslySetInnerHTML={{__html: post.preview.childMarkdownRemark.html}}/>
+            <div dangerouslySetInnerHTML={{__html: post.content}}/>
           </div>
         )}
       )}
