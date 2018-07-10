@@ -34,6 +34,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     `
   ).then(result => {
       result.data.allContentfulProject.edges.forEach(({node}) => {
+        console.log(node.slug);
         createPage({
           path: `/project/${node.slug}/`,
           component: path.resolve('./src/templates/project.js'),

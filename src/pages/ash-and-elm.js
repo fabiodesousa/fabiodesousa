@@ -1,6 +1,6 @@
 import React from 'react'
 
-const StudioCrema = () => (
+const AshAndElm = () => (
   <div
     css={{
       maxWidth: 960,
@@ -10,8 +10,8 @@ const StudioCrema = () => (
     }}
   >
     <h1>Coming soon</h1>
-    <p>A new digital agency serving the Tampa Bay area and beyond.</p>
+    <p>A new digital studio serving the Tampa Bay area and beyond.</p>
   </div>
 )
 
-export default StudioCrema
+export default AshAndElm
