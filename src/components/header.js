@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h4>
     </div>
-    <Link to="/ash-and-elm/" css={{marginLeft:'auto'}}>Ash & Elm</Link>
+    <a href="https://staycalma.com" css={{marginLeft:'auto'}}>Calma</Link>
     <Link to="/blog/" css={{marginLeft: '1rem'}}>Blog</Link>
     <Link to ="/contact/" css={{marginLeft: '1rem', marginRight: '1rem'}}>Contact</Link>
     

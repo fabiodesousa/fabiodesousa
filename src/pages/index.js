@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Tile from '../components/tile';
 import Banner from '../components/banner';
 
