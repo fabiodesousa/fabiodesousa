@@ -64,7 +64,7 @@ const IndexPage = () => {
         allContentfulProject(
           sort: {
             fields: [sortOrder]
-            order: ASC
+            order: DESC
           }
         ){
           edges {
