@@ -34,7 +34,6 @@ module.exports = {
       options: {
         name: `files`,
         path: path.join(__dirname, `src`, `files`),
-        ignore: [`**/\.*`], // ignore files starting with a dot
       },
     },
     `gatsby-transformer-sharp`,
