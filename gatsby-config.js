@@ -14,5 +14,13 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-plugin-google-fonts",
+      options: {
+        fonts: [
+          'Josefin sans'
+        ]
+      }
+    }
   ],
 };
